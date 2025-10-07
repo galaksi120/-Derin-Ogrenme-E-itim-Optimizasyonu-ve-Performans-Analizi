@@ -39,7 +39,7 @@ Amaç, eğitim sürelerini ve doğruluk değerlerini etkileyen faktörleri siste
 
 ## 🔬 Çalışma Adımları
 1. **Veri Hazırlama** → CIFAR-10 veri seti indirildi ve normalize edildi  
-2. **Model Tanımlama** → ResNet PyTorch Lightning `LightningModule` olarak implemente edildi  
+2. **Model Tanımlama** → ResNet PyTorch Lightning  implement edildi  
 3. **Optimizasyon Denemeleri** → SGD, Adam, RMSProp vb. algoritmalar denendi  
 4. **Batch Boyutu Analizi** → Küçük ve büyük batch boyutları test edildi  
 5. **Paralel Eğitim** → Lightning Trainer + SLURM + DDP kullanılarak multi-GPU eğitim  
